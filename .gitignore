@@ -1,0 +1,67 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets and config
+.env
+.env.*
+!.env.example
+
+# Project data and generated outputs
+data/raw/**
+data/bronze/**
+data/silver/**
+data/gold/**
+data/cache/**
+outputs/figures/**
+outputs/tables/**
+outputs/*.pptx
+outputs/*.pdf
+outputs/*.inspect.ndjson
+!outputs/figures/DataGraph.png
+notebooks/12_generate_data_pipeline_graph.ipynb
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/cache/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+
+# Local reference material should stay outside the project repo
+requirements/
+resources/
+
+# Spark / Kafka local state
+spark-warehouse/
+metastore_db/
+derby.log
+*.checkpoint/
+*.offsets/
+
+# Archives and large local dumps
+*.zip
+*.tar
+*.tar.gz
+*.parquet
+*.orc
+*.db
+*.sqlite
+*.sqlite3

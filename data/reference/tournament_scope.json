@@ -1,0 +1,98 @@
+{
+  "project_level": "team_match",
+  "team_match_rule": "1 match produces exactly 2 team-match rows: one row for each participating team.",
+  "source_system": "StatsBomb Open Data",
+  "tournaments": [
+    {
+      "scope_id": "world_cup_2018",
+      "competition_name": "FIFA World Cup",
+      "season_name": "2018",
+      "short_name": "WM 2018",
+      "expected_matches": 64,
+      "expected_team_match_rows": 128
+    },
+    {
+      "scope_id": "world_cup_2022",
+      "competition_name": "FIFA World Cup",
+      "season_name": "2022",
+      "short_name": "WM 2022",
+      "expected_matches": 64,
+      "expected_team_match_rows": 128
+    },
+    {
+      "scope_id": "euro_2020",
+      "competition_name": "UEFA Euro",
+      "season_name": "2020",
+      "short_name": "Euro 2020",
+      "expected_matches": 51,
+      "expected_team_match_rows": 102
+    },
+    {
+      "scope_id": "euro_2024",
+      "competition_name": "UEFA Euro",
+      "season_name": "2024",
+      "short_name": "Euro 2024",
+      "expected_matches": 51,
+      "expected_team_match_rows": 102
+    },
+    {
+      "scope_id": "afcon_2023",
+      "competition_name": "Africa Cup of Nations",
+      "season_name": "2023",
+      "short_name": "AFCON 2023",
+      "expected_matches": 52,
+      "expected_team_match_rows": 104
+    },
+    {
+      "scope_id": "copa_america_2024",
+      "competition_name": "Copa America",
+      "season_name": "2024",
+      "short_name": "Copa America 2024",
+      "expected_matches": 32,
+      "expected_team_match_rows": 64
+    }
+  ],
+  "target_metrics": [
+    {
+      "name": "team_xg",
+      "description": "Sum of shot xG for the team in one match."
+    },
+    {
+      "name": "shots",
+      "description": "Number of team shots in one match."
+    },
+    {
+      "name": "xg_per_shot",
+      "description": "team_xg divided by shots; null if shots is zero."
+    },
+    {
+      "name": "passes",
+      "description": "Number of team pass events in one match."
+    },
+    {
+      "name": "pass_completion_rate",
+      "description": "Completed passes divided by all passes; null if passes is zero."
+    },
+    {
+      "name": "pressures",
+      "description": "Number of team pressure events in one match."
+    },
+    {
+      "name": "counterpressures",
+      "description": "Number of team counterpressure events in one match."
+    },
+    {
+      "name": "duels",
+      "description": "Number of team duel events in one match."
+    },
+    {
+      "name": "long_ball_share",
+      "description": "Long passes divided by all passes; null if passes is zero."
+    }
+  ],
+  "expected_totals": {
+    "matches": 314,
+    "team_match_rows": 628,
+    "tournaments": 6
+  }
+}

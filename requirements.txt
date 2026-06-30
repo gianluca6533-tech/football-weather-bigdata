@@ -1,0 +1,6 @@
+beautifulsoup4
+confluent-kafka
+matplotlib
+pandas
+pyarrow
+requests

@@ -1,0 +1,32 @@
+model_name,target,feature,coefficient,coefficient_type
+weather_only,team_xg,intercept,1.74833,raw
+weather_only,team_xg,temperature_c,-0.01104,raw
+weather_only,team_xg,feels_like_c,0.002151,raw
+weather_only,team_xg,rain_mm,0.135727,raw
+elo_only,team_xg,intercept,1.534901,raw
+elo_only,team_xg,elo_diff,0.001757,raw
+weather_plus_elo,team_xg,intercept,1.74833,raw
+weather_plus_elo,team_xg,temperature_c,-0.01104,raw
+weather_plus_elo,team_xg,feels_like_c,0.002151,raw
+weather_plus_elo,team_xg,rain_mm,0.135727,raw
+weather_plus_elo,team_xg,elo_diff,0.001757,raw
+weather_plus_elo_plus_tournament,team_xg,intercept,2.095035,raw
+weather_plus_elo_plus_tournament,team_xg,temperature_c,-0.010923,raw
+weather_plus_elo_plus_tournament,team_xg,feels_like_c,-0.005677,raw
+weather_plus_elo_plus_tournament,team_xg,rain_mm,0.158943,raw
+weather_plus_elo_plus_tournament,team_xg,elo_diff,0.001757,raw
+weather_plus_elo_plus_tournament,team_xg,tournament_Copa America 2024,-0.007644,raw
+weather_plus_elo_plus_tournament,team_xg,tournament_Euro 2020,-0.147457,raw
+weather_plus_elo_plus_tournament,team_xg,tournament_Euro 2024,-0.385854,raw
+weather_plus_elo_plus_tournament,team_xg,tournament_WM 2018,-0.126842,raw
+weather_plus_elo_plus_tournament,team_xg,tournament_WM 2022,-0.194781,raw
+weather_plus_elo_plus_tournament_standardized,team_xg,intercept,1.534901,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,temperature_c,-0.055975,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,feels_like_c,-0.035995,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,rain_mm,0.060583,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,elo_diff,0.363662,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,tournament_Copa America 2024,-0.002313,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,tournament_Euro 2020,-0.054387,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,tournament_Euro 2024,-0.142317,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,tournament_WM 2018,-0.051097,standardized
+weather_plus_elo_plus_tournament_standardized,team_xg,tournament_WM 2022,-0.078465,standardized

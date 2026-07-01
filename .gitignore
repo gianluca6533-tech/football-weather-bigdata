@@ -35,6 +35,11 @@ outputs/*.pptx
 outputs/*.pdf
 outputs/*.inspect.ndjson
 !outputs/figures/DataGraph.png
+!outputs/figures/presentation_*.png
+!outputs/tables/bd19_weather_distribution_summary.csv
+!outputs/tables/model_comparison.csv
+!outputs/tables/model_incremental_comparison.csv
+!outputs/tables/model_coefficients.csv
 notebooks/12_generate_data_pipeline_graph.ipynb
 
 # Keep directory structure

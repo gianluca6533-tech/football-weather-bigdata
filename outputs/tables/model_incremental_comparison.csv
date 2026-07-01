@@ -1,0 +1,7 @@
+target,comparison,base_model,candidate_model,n_added_features,r2,adjusted_r2,delta_r2,delta_adjusted_r2,delta_rmse,note
+team_xg,Wetterdaten allein,null_model,weather_only,3,0.0032,-0.0016,0.0032,-0.0016,,"Temperatur, gefuehlte Temperatur und Regenmenge gegen Intercept-only-Baseline."
+team_xg,Elo-Differenz allein,null_model,elo_only,1,0.0752,0.0738,0.0752,0.0738,,Teamstaerke relativ zum Gegner gegen Intercept-only-Baseline.
+team_xg,Wetterdaten zusaetzlich zu Elo,elo_only,weather_plus_elo,3,0.0784,0.0725,0.0032,-0.0013,-0.0022,"Zusatznutzen von Wetterdaten, nachdem Teamstaerke kontrolliert ist."
+successful_passes,Wetterdaten allein,null_model,weather_only,3,0.0288,0.0242,0.0288,0.0242,,"Temperatur, gefuehlte Temperatur und Regenmenge gegen Intercept-only-Baseline."
+successful_passes,Elo-Differenz allein,null_model,elo_only,1,0.2625,0.2614,0.2625,0.2614,,Teamstaerke relativ zum Gegner gegen Intercept-only-Baseline.
+successful_passes,Wetterdaten zusaetzlich zu Elo,elo_only,weather_plus_elo,3,0.2914,0.2868,0.0289,0.0254,-2.4992,"Zusatznutzen von Wetterdaten, nachdem Teamstaerke kontrolliert ist."

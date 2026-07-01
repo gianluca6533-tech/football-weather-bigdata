@@ -1,0 +1,9 @@
+model_name,target,n_observations,n_features,r2,adjusted_r2,rmse,feature_set
+weather_only,team_xg,628,3,0.0032,-0.0016,1.3237,"temperature_c, feels_like_c, rain_mm"
+elo_only,team_xg,628,1,0.0752,0.0738,1.275,elo_diff
+weather_plus_elo,team_xg,628,4,0.0784,0.0725,1.2728,"temperature_c, feels_like_c, rain_mm, elo_diff"
+weather_plus_elo_plus_tournament,team_xg,628,9,0.0857,0.0723,1.2678,"temperature_c, feels_like_c, rain_mm, elo_diff, tournament_Copa America 2024, tournament_Euro 2020, tournament_Euro 2024, tournament_WM 2018, tournament_WM 2022"
+weather_only,successful_passes,628,3,0.0288,0.0242,145.2164,"temperature_c, feels_like_c, rain_mm"
+elo_only,successful_passes,628,1,0.2625,0.2614,126.5436,elo_diff
+weather_plus_elo,successful_passes,628,4,0.2914,0.2868,124.0444,"temperature_c, feels_like_c, rain_mm, elo_diff"
+weather_plus_elo_plus_tournament,successful_passes,628,9,0.3532,0.3437,118.5147,"temperature_c, feels_like_c, rain_mm, elo_diff, tournament_Copa America 2024, tournament_Euro 2020, tournament_Euro 2024, tournament_WM 2018, tournament_WM 2022"

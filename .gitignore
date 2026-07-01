@@ -30,6 +30,7 @@ data/gold/**
 data/cache/**
 outputs/figures/**
 outputs/tables/**
+outputs/template_assets/
 outputs/*.pptx
 outputs/*.pdf
 outputs/*.inspect.ndjson

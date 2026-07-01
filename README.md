@@ -68,7 +68,8 @@ Die Pipeline trennt Quellen, Laden, Speichern, Transformation, Transport und Ana
 - `01b`, `02b`, `03b`, `04b` und `07` transformieren die Daten zu joinbaren Silver-Features.
 - `05` publiziert Wetterfeatures in Kafka; `06` liest das Topic mit Spark und speichert den strukturierten Snapshot.
 - `08` verbindet Team-Match-Basisdaten, Wetterdaten und Elo-Features zum Gold-Dataset.
-- `09`, `10` und `11` lesen aus `data/gold/` und erzeugen Tabellen und Visualisierungen in `outputs/`.
+- `09`, `10` und `11` lesen aus `data/gold/` und erzeugen fachliche Tabellen und Visualisierungen in `outputs/`.
+- `12` buendelt die finalen Praesentationsgrafiken und die Ergebnisstory fuer die Abschlussfolien.
 
 Die detaillierte Notebook-Konvention mit Inputs, Outputs und Data Flow steht in
 [`docs/notebook_data_flow.md`](docs/notebook_data_flow.md).
@@ -100,6 +101,7 @@ Zwischenartefakte aus `data/`.
 | 09 | `notebooks/09_eda_weather_distribution.ipynb` | Wetterverteilung und Plausibilitaet analysieren |
 | 10 | `notebooks/10_analysis_style_intensity.ipynb` | Spielstil, Intensitaet und Ballkontrolle untersuchen |
 | 11 | `notebooks/11_analysis_chance_quality_model.ipynb` | Chancenqualitaet und Regressionsmodelle vergleichen |
+| 12 | `notebooks/12_final_presentation_graphics.ipynb` | Finale Praesentationsgrafiken und Storyline erzeugen |
 
 `notebooks/environment_check.ipynb` ist ein Hilfsnotebook fuer Docker, Kafka und
 Spark. Es ist kein fachlicher Pipeline-Schritt.
@@ -118,11 +120,15 @@ Reproduzierbarkeit nicht alle committed:
   `outputs/tables/model_incremental_comparison.csv`,
   `outputs/figures/model_r2_comparison.png`
 - Praesentationsstruktur: `docs/presentation_outline.md`
+- Finale Praesentationsgrafiken: `notebooks/12_final_presentation_graphics.ipynb`
+  erzeugt `outputs/figures/presentation_*.png`
+- Codefreie Praesentationsstory: `docs/final_presentation_story.md`
 
 Fachlich zeigt der Modellvergleich, dass Wettervariablen als Kontextsignale
-brauchbar sind, die relative Teamstaerke ueber `elo_diff` fuer `team_xg` aber
-mehr Varianz erklaert. Im aktuellen Lauf erreicht `weather_only` ein R2 von
-0.0015, `elo_only` 0.0752 und `weather_plus_elo` 0.0768.
+brauchbar sind, die relative Teamstärke über `elo_diff` aber deutlich
+mehr Varianz erklärt. Im aktuellen Lauf erreicht `weather_only` für
+Team-xG ein R² von 0.0032, `elo_only` 0.0752. Bei `successful_passes`
+liegt `weather_only` bei R² 0.0288 und `elo_only` bei 0.2625.
 
 ## Limitierungen
 

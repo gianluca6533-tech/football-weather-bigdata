@@ -47,6 +47,7 @@ Der Graph ist bewusst als einfacher Pfeil aufgebaut: Links stehen Quellen und La
 | 09 | `09_eda_weather_distribution.ipynb` | Wetterverteilungen und Plausibilitaet der Wettergruppen analysieren. | `data/gold/team_match_analysis_dataset.csv` | `outputs/figures/weather_temperature_histogram.png`, `outputs/figures/weather_feels_like_histogram.png`, `outputs/figures/weather_temperature_by_tournament.png`, `outputs/figures/rain_share.png`, `outputs/tables/bd19_weather_distribution_summary.csv` |
 | 10 | `10_analysis_style_intensity.ipynb` | Zusammenhang zwischen Wetter, Teamstaerke und Spielstil-/Intensitaetsmetriken untersuchen. | `data/gold/team_match_analysis_dataset.parquet` | `outputs/figures/style_intensity_*`, `outputs/tables/style_intensity_results.csv` |
 | 11 | `11_analysis_chance_quality_model.ipynb` | Chancenqualitaet und Regressionsmodelle fuer xG-/Shot-Quality-Metriken vorbereiten und vergleichen. | `data/gold/team_match_analysis_dataset.parquet` | `outputs/tables/model_comparison.csv`, `outputs/tables/model_incremental_comparison.csv`, `outputs/figures/model_r2_comparison.png`, `outputs/figures/model_coefficients.png` |
+| 12 | `12_final_presentation_graphics.ipynb` | Finale Praesentationsgrafiken und Ergebnisstory aus den Analyse-Outputs buendeln. | `data/gold/team_match_analysis_dataset.csv`, `outputs/tables/model_comparison.csv` | `outputs/figures/presentation_*.png`, `docs/final_presentation_story.md` |
 
 ## Data-Flow-Regeln
 
@@ -68,4 +69,5 @@ Der Graph ist bewusst als einfacher Pfeil aufgebaut: Links stehen Quellen und La
 - Kafka-Produktion ist separat in `05`.
 - `06` liest Kafka mit Spark; finale Joins passieren erst in `08`.
 - `09`, `10` und `11` sind getrennte Analysefragen und schreiben eigene Ergebnisartefakte.
+- `12` ist kein neuer fachlicher Transformationsschritt, sondern buendelt die finalen Praesentationsgrafiken aus den Analyseergebnissen.
 - Der finale Pipeline-Graph und die Abgabe-Story stehen im README; die eingebundene PNG-Datei liegt unter `outputs/figures/DataGraph.png`.

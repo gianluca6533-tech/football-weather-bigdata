@@ -41,6 +41,7 @@ outputs/*.inspect.ndjson
 !outputs/tables/model_incremental_comparison.csv
 !outputs/tables/model_coefficients.csv
 notebooks/12_generate_data_pipeline_graph.ipynb
+!data/gold/team_match_analysis_dataset.csv
 
 # Keep directory structure
 !data/raw/.gitkeep

@@ -1,0 +1,54 @@
+location_key,city_name,country_name,latitude,longitude,matched_name,matched_country,matched_country_code,matched_admin1,matched_timezone,source_note
+abidjan__cote_d_ivoire,Abidjan,Cote d'Ivoire,5.35444,-4.00167,Abidjan,Ivory Coast,CI,Abidjan Autonomous District,Africa/Abidjan,Open-Meteo geocoding reference fallback
+al_khor__qatar,Al Khor,Qatar,25.68389,51.50583,Al Khor,Qatar,QA,Al Khor,Asia/Qatar,Open-Meteo geocoding reference fallback
+al_rayyan__qatar,Al Rayyan,Qatar,25.29194,51.42444,Al Rayyan,Qatar,QA,Al Rayyan,Asia/Qatar,Curated host-city fallback
+al_wakrah__qatar,Al Wakrah,Qatar,25.17151,51.60337,Al Wakrah,Qatar,QA,Al Wakrah,Asia/Qatar,Curated host-city fallback
+amsterdam__netherlands,Amsterdam,Netherlands,52.37403,4.88969,Amsterdam,The Netherlands,NL,North Holland,Europe/Amsterdam,Open-Meteo geocoding reference fallback
+arlington__united_states_of_america,Arlington,United States of America,32.73569,-97.10807,Arlington,United States,US,Texas,America/Chicago,Open-Meteo geocoding reference fallback
+atlanta__united_states_of_america,Atlanta,United States of America,33.749,-84.38798,Atlanta,United States,US,Georgia,America/New_York,Open-Meteo geocoding reference fallback
+austin__united_states_of_america,Austin,United States of America,30.26715,-97.74306,Austin,United States,US,Texas,America/Chicago,Curated host-city fallback
+baku__azerbaijan,Baku,Azerbaijan,40.37767,49.89201,Baku,Azerbaijan,AZ,Baku City,Asia/Baku,Open-Meteo geocoding reference fallback
+berlin__germany,Berlin,Germany,52.52437,13.41053,Berlin,Germany,DE,Berlin,Europe/Berlin,Curated host-city fallback
+bouake__cote_d_ivoire,Bouake,Cote d'Ivoire,7.69385,-5.03031,Bouake,Ivory Coast,CI,Vallee du Bandama District,Africa/Abidjan,Open-Meteo geocoding reference fallback
+bucharest__romania,Bucharest,Romania,44.43225,26.10626,Bucharest,Romania,RO,Bucharest,Europe/Bucharest,Open-Meteo geocoding reference fallback
+budapest__hungary,Budapest,Hungary,47.49835,19.04045,Budapest,Hungary,HU,Budapest,Europe/Budapest,Open-Meteo geocoding reference fallback
+charlotte__united_states_of_america,Charlotte,United States of America,35.22709,-80.84313,Charlotte,United States,US,North Carolina,America/New_York,Open-Meteo geocoding reference fallback
+cologne__germany,Cologne,Germany,50.93333,6.95,Cologne,Germany,DE,North Rhine-Westphalia,Europe/Berlin,Open-Meteo geocoding reference fallback
+copenhagen__denmark,Copenhagen,Denmark,55.67594,12.56553,Copenhagen,Denmark,DK,Capital Region,Europe/Copenhagen,Open-Meteo geocoding reference fallback
+doha__qatar,Doha,Qatar,25.28545,51.53096,Doha,Qatar,QA,Baladiyat ad Dawhah,Asia/Qatar,Open-Meteo geocoding reference fallback
+dortmund__germany,Dortmund,Germany,51.51494,7.466,Dortmund,Germany,DE,North Rhine-Westphalia,Europe/Berlin,Open-Meteo geocoding reference fallback
+dusseldorf__germany,Dusseldorf,Germany,51.22319,6.77927,Dusseldorf,Germany,DE,North Rhine-Westphalia,Europe/Berlin,Open-Meteo geocoding reference fallback
+east_rutherford__united_states_of_america,East Rutherford,United States of America,40.83399,-74.09709,East Rutherford,United States,US,New Jersey,America/New_York,Curated host-city fallback
+ekaterinburg__russia,Ekaterinburg,Russia,56.74311,60.80273,Ekaterinburg Koltsovo Airport,Russia,RU,Sverdlovsk Oblast,Asia/Yekaterinburg,Open-Meteo geocoding reference fallback
+frankfurt__germany,Frankfurt,Germany,49.68333,10.53333,Frankfurt,Germany,DE,Bavaria,Europe/Berlin,Open-Meteo geocoding reference fallback
+gelsenkirchen__germany,Gelsenkirchen,Germany,51.50508,7.09654,Gelsenkirchen,Germany,DE,North Rhine-Westphalia,Europe/Berlin,Open-Meteo geocoding reference fallback
+glasgow__scotland,Glasgow,Scotland,55.86515,-4.25763,Glasgow,United Kingdom,GB,Scotland,Europe/London,Curated host-city fallback
+glendale__united_states_of_america,Glendale,United States of America,33.53865,-112.18599,Glendale,United States,US,Arizona,America/Phoenix,Curated host-city fallback
+hamburg__germany,Hamburg,Germany,53.55073,9.99302,Hamburg,Germany,DE,Hamburg,Europe/Berlin,Curated host-city fallback
+houston__united_states_of_america,Houston,United States of America,29.76328,-95.36327,Houston,United States,US,Texas,America/Chicago,Open-Meteo geocoding reference fallback
+inglewood__united_states_of_america,Inglewood,United States of America,33.96168,-118.35313,Inglewood,United States,US,California,America/Los_Angeles,Open-Meteo geocoding reference fallback
+kaliningrad__russia,Kaliningrad,Russia,54.70639,20.51102,Kaliningrad,Russia,RU,Kaliningrad Oblast,Europe/Kaliningrad,Open-Meteo geocoding reference fallback
+kansas_city__united_states_of_america,Kansas City,United States of America,39.09973,-94.57857,Kansas City,United States,US,Missouri,America/Chicago,Open-Meteo geocoding reference fallback
+kazan__russia,Kazan,Russia,55.78874,49.12214,Kazan,Russia,RU,Tatarstan,Europe/Moscow,Curated host-city fallback
+korhogo__cote_d_ivoire,Korhogo,Cote d'Ivoire,9.45803,-5.62961,Korhogo,Ivory Coast,CI,Savanes District,Africa/Abidjan,Open-Meteo geocoding reference fallback
+las_vegas__united_states_of_america,Las Vegas,United States of America,36.17497,-115.13722,Las Vegas,United States,US,Nevada,America/Los_Angeles,Curated host-city fallback
+leipzig__germany,Leipzig,Germany,51.33962,12.37129,Leipzig,Germany,DE,Saxony,Europe/Berlin,Open-Meteo geocoding reference fallback
+london__england,London,England,51.50853,-0.12574,London,United Kingdom,GB,England,Europe/London,Open-Meteo geocoding reference fallback
+lusail__qatar,Lusail,Qatar,25.4175,51.5075,Lusail,Qatar,QA,Al Daayen,Asia/Qatar,Open-Meteo geocoding reference fallback
+miami_gardens__united_states_of_america,Miami Gardens,United States of America,25.94204,-80.2456,Miami Gardens,United States,US,Florida,America/New_York,Open-Meteo geocoding reference fallback
+moscow__russia,Moscow,Russia,55.75204,37.61781,Moscow,Russia,RU,Moscow,Europe/Moscow,Open-Meteo geocoding reference fallback
+munich__germany,Munich,Germany,48.13743,11.57549,Munich,Germany,DE,Bavaria,Europe/Berlin,Open-Meteo geocoding reference fallback
+nizhny_novgorod__russia,Nizhny Novgorod,Russia,56.32867,44.00205,Nizhny Novgorod,Russia,RU,Nizhny Novgorod Oblast,Europe/Moscow,Curated host-city fallback
+orlando__united_states_of_america,Orlando,United States of America,28.53834,-81.37924,Orlando,United States,US,Florida,America/New_York,Curated host-city fallback
+rome__italy,Rome,Italy,41.89193,12.51133,Rome,Italy,IT,Lazio,Europe/Rome,Open-Meteo geocoding reference fallback
+rostov_on_don__russia,Rostov-on-Don,Russia,47.21997,39.70769,Rostov-on-Don,Russia,RU,Rostov Oblast,Europe/Moscow,Open-Meteo geocoding reference fallback
+saint_petersburg__russia,Saint Petersburg,Russia,59.93863,30.31413,St Petersburg,Russia,RU,St.-Petersburg,Europe/Moscow,Open-Meteo geocoding reference fallback
+samara__russia,Samara,Russia,53.20767,50.13553,Samara,Russia,RU,Samara Oblast,Europe/Samara,Open-Meteo geocoding reference fallback
+san_pedro__cote_d_ivoire,San Pedro,Cote d'Ivoire,4.74851,-6.6363,San-Pedro,Ivory Coast,CI,Bas-Sassandra District,Africa/Abidjan,Open-Meteo geocoding reference fallback
+santa_clara__united_states_of_america,Santa Clara,United States of America,37.35411,-121.95524,Santa Clara,United States,US,California,America/Los_Angeles,Open-Meteo geocoding reference fallback
+saransk__russia,Saransk,Russia,54.1838,45.1749,Saransk,Russia,RU,Republic of Mordovia,Europe/Moscow,Curated host-city fallback
+seville__spain,Seville,Spain,37.38283,-5.97317,Seville,Spain,ES,Andalusia,Europe/Madrid,Open-Meteo geocoding reference fallback
+sochi__russia,Sochi,Russia,43.59917,39.72569,Sochi,Russia,RU,Krasnodar Krai,Europe/Moscow,Curated host-city fallback
+stuttgart__germany,Stuttgart,Germany,48.78232,9.17702,Stuttgart,Germany,DE,Baden-Wurttemberg,Europe/Berlin,Open-Meteo geocoding reference fallback
+volgograd__russia,Volgograd,Russia,48.71378,44.4976,Volgograd,Russia,RU,Volgograd Oblast,Europe/Volgograd,Open-Meteo geocoding reference fallback
+yamoussoukro__cote_d_ivoire,Yamoussoukro,Cote d'Ivoire,6.82055,-5.27674,Yamoussoukro,Ivory Coast,CI,Lacs District,Africa/Abidjan,Open-Meteo geocoding reference fallback

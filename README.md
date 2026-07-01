@@ -50,10 +50,10 @@ Elo-Differenzen werden fuer die Interpretation in `favorite`, `balanced` und `un
 5. Finale Analyse- und Ergebnisdaten in `data/gold/` oder `outputs/` speichern.
 6. Ergebnisse visualisieren und Data Flow dokumentieren.
 
-Die Umsetzung folgt den Kursbausteinen zu Dateiverarbeitung, Web APIs/Web
-Scraping, Spark DataFrames und Kafka: externe Quellen werden zuerst reproduzierbar
-geladen, danach in klaren Bronze-/Silver-/Gold-Stufen transformiert und fuer den
-Kafka/Spark-Teil ueber ein definiertes JSON-Topic ausgetauscht.
+Die Umsetzung folgt einer reproduzierbaren Big-Data-Pipeline: externe Quellen
+werden zuerst kontrolliert geladen, danach in klaren Bronze-/Silver-/Gold-Stufen
+transformiert und fuer den Kafka/Spark-Teil ueber ein definiertes JSON-Topic
+ausgetauscht.
 
 ## Data Pipeline
 

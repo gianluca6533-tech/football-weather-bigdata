@@ -30,10 +30,10 @@ Festlegen, welche Turniere und Spiele analysiert werden.
 
 ## Umsetzung
 
-- `notebooks/00_project_overview.ipynb` dokumentiert Forschungsfrage, Kursbezug, Turnier-Scope, erwartete Gesamtgroesse, Team-Match-Vertrag und Zielmetriken.
+- `notebooks/00_project_overview.ipynb` dokumentiert Forschungsfrage, Turnier-Scope, erwartete Gesamtgroesse, Team-Match-Vertrag und Zielmetriken.
 - `docs/project_scope.md` ist die lesbare Scope-Dokumentation fuer spaetere Arbeitsschritte.
 - `data/reference/tournament_scope.json` ist die maschinenlesbare Quelle, die spaetere Notebooks fuer Filter und Validierungen verwenden.
-- Der Scope folgt den Kursreferenzen aus `resources/`: strukturierte DataFrame-/Tabellenarbeit, klare Pipeline-Artefakte und Trennung von Ingestion, Transformation und Analyse.
+- Der Scope folgt einer strukturierten DataFrame-/Tabellenarbeit mit klaren Pipeline-Artefakten und Trennung von Ingestion, Transformation und Analyse.
 
 ## Akzeptanzkriterien
 

@@ -26,7 +26,7 @@ Eine lokale Umgebung mit Jupyter, Kafka und Spark vorbereiten.
 ## Umsetzung
 
 - `docker-compose.yml` im Projektroot erstellt.
-- Jupyter nutzt wie in den Kursressourcen das Image `jupyter/pyspark-notebook`, ergaenzt um gemountete Projektordner.
+- Jupyter nutzt das Image `jupyter/pyspark-notebook`, ergaenzt um gemountete Projektordner.
 - Spark wird lokal im Jupyter-Container gestartet.
 - Kafka laeuft als Single-Node-Broker im KRaft-Modus.
 - `notebooks/environment_check.ipynb` prueft Datenordner, Kafka-Port und SparkSession aus Jupyter heraus.

@@ -43,10 +43,10 @@ StatsBomb-Metriken, Match-Metadaten und Team/Gegner-Struktur in Spark zusammenfu
   - keine doppelten `(match_id, team_id)`-Zeilen
   - jedes Spiel hat genau zwei Team-Zeilen
 
-## Kursbezug
+## Methodik
 
-- `resources/Spark DataFrame.pdf`: DataFrame-orientierte Verarbeitung mit relationalen Operationen wie `select`, `join` und Aggregationen.
-- `resources/Big Data.pdf`: ETL-Prinzip Extract, Transform, Load als Grundlage fuer reproduzierbare Pipeline-Stufen.
+- DataFrame-orientierte Verarbeitung mit relationalen Operationen wie `select`, `join` und Aggregationen.
+- Reproduzierbare Pipeline-Stufe von Bronze nach Silver mit expliziten Inputs, Outputs und Qualitaetschecks.
 
 ## Abhaengigkeiten
 

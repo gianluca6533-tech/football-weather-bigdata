@@ -20,7 +20,7 @@ Projekt so dokumentieren, dass es verstaendlich und reproduzierbar ist.
 - [x] Projekt ist nachvollziehbar dokumentiert.
 - [x] Alle Notebooks sind in sinnvoller Reihenfolge vorhanden.
 - [x] Outputs und finale Ergebnisse sind auffindbar.
-- [x] Requirements des Kurses sind sichtbar erfuellt.
+- [x] Projektanforderungen sind sichtbar erfuellt.
 
 ## Abhaengigkeiten
 

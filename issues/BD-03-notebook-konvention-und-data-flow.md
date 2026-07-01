@@ -31,7 +31,7 @@ Festlegen, welches Notebook welchen Schritt der Pipeline abbildet.
 ## Umsetzung
 
 - Notebook-Konvention und Data Flow sind in `docs/notebook_data_flow.md` dokumentiert.
-- Die Dokumentation nutzt die Kursressourcen zu Web APIs/Web Scraping, Kafka, Spark Streaming und Spark DataFrames als Referenz fuer die Trennung der Pipeline-Schritte.
+- Die Dokumentation trennt Ingestion, Streaming, Transformation, Feature Engineering und Analyse in klar nachvollziehbare Pipeline-Schritte.
 - Die eigentlichen Pipeline-Notebooks bleiben fuer BD-03 bewusst ohne fachlichen Inhalt; sie werden in den nachfolgenden Issues erstellt bzw. gefuellt.
 
 ## Akzeptanzkriterien

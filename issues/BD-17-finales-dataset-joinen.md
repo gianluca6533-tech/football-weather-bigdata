@@ -53,10 +53,10 @@ Alle Datenquellen in ein finales Analyse-Dataset verbinden.
   - keine fehlenden Wetter- oder Elo-Joins
   - Missing Values sind spaltenweise dokumentiert
 
-## Kursbezug
+## Methodik
 
-- `resources/Spark DataFrame.pdf`: DataFrame-orientierte Verarbeitung mit `select`, `join`, Aggregationen und expliziten Spaltenprojektionen.
-- `resources/Big Data.pdf`: ETL-Prinzip fuer reproduzierbare Pipeline-Stufen von Silver nach Gold.
+- DataFrame-orientierte Verarbeitung mit `select`, `join`, Aggregationen und expliziten Spaltenprojektionen.
+- Reproduzierbare Pipeline-Stufe von Silver nach Gold mit dokumentierten Join-Checks und Missing-Value-Pruefungen.
 
 ## Abhaengigkeiten
 
